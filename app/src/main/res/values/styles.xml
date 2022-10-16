@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#8BC34A</item>
+        <item name="colorPrimaryDark">#8BC34A</item>
+        <item name="colorAccent">#8BC34A</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AlertButtonBgWhite" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/bg_btn_white</item>
+        <!--        <item name="minHeight">45dip</item>-->
+        <!--        <item name="minWidth">70dip</item>-->
+        <item name="android:layout_marginStart">15dip</item>
+    </style>
+    <style name="ButtonTheme" parent="Widget.AppCompat.Button">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

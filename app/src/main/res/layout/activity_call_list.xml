@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#614DB6AC"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:text="1. 보호자에게 연락"
+        android:textSize="20dp"
+        android:fontFamily="@font/regularelice"
+        />
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:fontFamily="@font/regularelice"
+        android:text="2. 119에 연락" />
+
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:fontFamily="@font/regularelice"
+        android:text="3. 경찰서에 연락" />
+
+    <Button
+        android:id="@+id/Btn4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:fontFamily="@font/regularelice"
+        android:text="4. 종료" />
+
+
+    <!--주석 -->
+</LinearLayout>

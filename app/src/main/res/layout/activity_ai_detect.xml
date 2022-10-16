@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:background="#614DB6AC"
+    tools:context=".FFmpegRecordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/ButtonTheme"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="작동" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/ButtonTheme"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="데모1" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/ButtonTheme"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="데모2" />
+        <Button
+            android:id="@+id/btn4"
+            style="@style/ButtonTheme"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="종료" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <VideoView
+            android:id="@+id/vv_playback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

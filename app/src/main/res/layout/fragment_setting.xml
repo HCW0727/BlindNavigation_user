@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#614DB6AC"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo"/>
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/regularelice"
+        android:text="1. AI 장애물 인식" />
+    />
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:fontFamily="@font/regularelice"
+        android:text="2. 네비게이션" />
+
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:fontFamily="@font/regularelice"
+        android:text="3. 원격접속" />
+
+    <Button
+        android:id="@+id/Btn4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:fontFamily="@font/regularelice"
+        android:text="4. 블랙박스"/>
+
+    <Button
+        android:id="@+id/Btn5"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:fontFamily="@font/regularelice"
+        android:text="5. 긴급연락" />
+
+    <!--주석 -->
+</LinearLayout>

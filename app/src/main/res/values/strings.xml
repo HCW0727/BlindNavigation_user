@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">보호자용</string>
+<!--    <string name="action_settings">설정</string>-->
+    <string name="action_create_room">방 만들기</string>
+
+    <!--视频通话-->
+    <string name="av_waiting">상대방을 기다리는 중...</string>
+    <string name="av_audio_invite">음성통화 초대</string>
+    <string name="av_video_invite">영상통화 초대</string>
+
+    <string name="title_user">사용자</string>
+    <string name="title_room">회의실</string>
+<!--    <string name="title_setting">설정</string>-->
+    <string name="reset">Reset</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="done">Done</string>
+    <string name="video_path">Video path:</string>
+    <string name="video_too_short">Video is too short.</string>
+    <string name="initiating">Initiating…</string>
+    <string name="processing">Processing…</string>
+    <string name="please_wait">Please wait</string>
+    <string name="permissions_denied_exit">Permissions denied, exit.</string>
+    <string name="switch_camera">Switch\nCam</string>
+    <string name="to_gray">To Gray</string>
+    <string name="to_rgb">To RGB</string>
+    <string name="hide_preview">OFF\nPreview</string>
+    <string name="show_preview">On\nPreview</string>
+    <string name="error">No Activity</string>
+    <string name="text">Test RecognizerIntent</string>
+    <string name="button">Speech</string>
+
+</resources>

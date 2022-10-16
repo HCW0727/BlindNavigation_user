@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFEBEE">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/boldelice"
+        android:textSize="24dp"
+        android:text="개발자 정보"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/boldelice"
+        android:paddingTop="10dp"
+        android:text="허채원 (경북고등학교)"
+        android:textAlignment="textStart"
+        android:textColor="#F06292"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:fontFamily="@font/regularelice"
+        android:textSize="15dp"
+        android:text="딥러닝 Yolo 구현"/>
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/boldelice"
+        android:textSize="16dp"
+        android:text="허채영 (대구남산고등학교)"
+        android:textColor="#F06292"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/regularelice"
+        android:textSize="15dp"
+        android:paddingTop="5dp"
+        android:text="web-rtc 화상채팅, 블랙박스, GUI"/>
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/boldelice"
+        android:textSize="16dp"
+        android:text="변성빈 (경북고등학교)"
+        android:textColor="#F06292"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/regularelice"
+        android:textSize="15dp"
+        android:paddingTop="5dp"
+        android:text="tmap 네비게이션"/>
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/boldelice"
+        android:textSize="16dp"
+        android:text="이원동 (경북고등학교)"
+        android:textColor="#F06292"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/regularelice"
+        android:textSize="15dp"
+        android:paddingTop="5dp"
+        android:text="음성 명령, TTS"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/boldelice"
+        android:paddingTop="30dp"
+        android:textSize="24dp"
+        android:text="연락처"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/regularelice"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:text="heochaeyoung@gmail.com\nhcw0727@naver.com"
+        android:paddingBottom="30dp"/>
+
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="68dp"
+        android:background="@drawable/iconnnn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"/>
+
+
+
+
+
+</LinearLayout>
