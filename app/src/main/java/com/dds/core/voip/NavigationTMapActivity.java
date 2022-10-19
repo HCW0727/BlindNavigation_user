@@ -139,7 +139,7 @@ public class NavigationTMapActivity extends AppCompatActivity implements TMapGps
                 if (status != TextToSpeech.ERROR) {
                     ttsObj.setLanguage(Locale.KOREAN);
                     ttsObj.setPitch(1.f);
-                    ttsObj.setSpeechRate(1.4f);
+                    ttsObj.setSpeechRate(1.5f);
                     ttsObj.getVoice();
                     ttsObj.getVoices();
                 }
@@ -151,28 +151,33 @@ public class NavigationTMapActivity extends AppCompatActivity implements TMapGps
         m_arrayPoint.clear();
 
         mArrayMarkerID    = new ArrayList<>();
-        mArrayMarkerID.add("강남역");  //37.498082125962,    127.028007144248
-        mArrayMarkerID.add("교대역");  //35.763624094753,    128.722262767166
-        mArrayMarkerID.add("역삼역");  //37.500665213063,    127.036450800771
-        mArrayMarkerID.add("서울대학교"); //37.459363917109,  126.953125393997
-        mArrayMarkerID.add("고려대학교"); //37.589543800333,  127.03233919086
-        mArrayMarkerID.add("한양대학교"); //37.55724296836, 127.046421568243
-        mArrayMarkerID.add("회사");    //37.500665213063,    127.036450800771
-        mArrayMarkerID.add("복지관");  //37.57015760429,    127.033394841404
-        mArrayMarkerID.add("서울역");  //37.554714113903,    126.970706216557
-
-
+        //mArrayMarkerID.add("강남역");  //37.498082125962,    127.028007144248
+        //mArrayMarkerID.add("교대역");  //35.763624094753,    128.722262767166
+        //mArrayMarkerID.add("역삼역");  //37.500665213063,    127.036450800771
+       // mArrayMarkerID.add("서울대학교"); //37.459363917109,  126.953125393997
+       // mArrayMarkerID.add("고려대학교"); //37.589543800333,  127.03233919086
+        //mArrayMarkerID.add("한양대학교"); //37.55724296836, 127.046421568243
+        //mArrayMarkerID.add("회사");    //37.500665213063,    127.036450800771
+        //mArrayMarkerID.add("복지관");  //37.57015760429,    127.033394841404
+        //mArrayMarkerID.add("서울역");  //37.554714113903,    126.970706216557
+        mArrayMarkerID.add("행신역");
+        mArrayMarkerID.add("고양종합운동장");
+        mArrayMarkerID.add("대화역");
+        mArrayMarkerID.add("대화도서관");
+        mArrayMarkerID.add("주엽고등학교");
+        mArrayMarkerID.add("일산호수공원");
+        mArrayMarkerID.add("일산문화공원");
         m_arrayBookMark   = new ArrayList<TMapPoint>();
         m_arrayBookMark.clear();
-        m_arrayBookMark.add( 0,  new TMapPoint(37.498082125962,    127.028007144248) );
-        m_arrayBookMark.add( 1,  new TMapPoint( 37.4939999182057,    127.014675054995) );
-        m_arrayBookMark.add( 2,  new TMapPoint( 37.500665213063,    127.036450800771) );
-        m_arrayBookMark.add( 3,  new TMapPoint( 37.459363917109,  126.953125393997) );
-        m_arrayBookMark.add( 4,  new TMapPoint( 37.589543800333,  127.03233919086) );
-        m_arrayBookMark.add( 5,  new TMapPoint(37.55724296836, 127.046421568243) );
-        m_arrayBookMark.add( 6,  new TMapPoint(37.500665213063,    127.036450800771 ) );
-        m_arrayBookMark.add( 7,  new TMapPoint(37.57015760429,    127.033394841404) );
-        m_arrayBookMark.add( 8,  new TMapPoint(37.554714113903,    126.970706216557) );
+        m_arrayBookMark.add( 0,  new TMapPoint(37.612175933,  126.834157342) );
+        m_arrayBookMark.add( 1,  new TMapPoint(37.676369, 126.743082 ) );
+        m_arrayBookMark.add( 2,  new TMapPoint( 37.676200421, 126.747511311) );
+        m_arrayBookMark.add( 3,  new TMapPoint( 37.681148,  126.753599) );
+        m_arrayBookMark.add( 4,  new TMapPoint( 37.675896, 126.754744) );
+        m_arrayBookMark.add( 5,  new TMapPoint(37.656702, 126.766197) );
+        m_arrayBookMark.add( 6,  new TMapPoint(37.6589462, 126.770719  ) );
+        //m_arrayBookMark.add( 7,  new TMapPoint(37.57015760429,    127.033394841404) );
+
 
 
         Button button1 =  findViewById(R.id.btn1);
@@ -397,8 +402,8 @@ public class NavigationTMapActivity extends AppCompatActivity implements TMapGps
 
 //        double latitude1  = 35.837927205794486; //mMapView.getCenterPoint().getLatitude();
 //        double longitude1 = 128.61044835627567; //mMapView.getCenterPoint().getLongitude();
-        double latitude1  = 37.512025152045; //mMapView.getCenterPoint().getLatitude();
-        double longitude1 = 127.05911530903; //mMapView.getCenterPoint().getLongitude();
+        double latitude1  = 37.669303; //mMapView.getCenterPoint().getLatitude();
+        double longitude1 = 126.741319; //mMapView.getCenterPoint().getLongitude();
 
 //        double latitude1  = tMapOrgPoint.getLatitude();
 //        double longitude1 = tMapOrgPoint.getLongitude();
@@ -427,7 +432,7 @@ public class NavigationTMapActivity extends AppCompatActivity implements TMapGps
 
         if( timer2 == null  ) {
             timer2 = new Timer();
-            timer2.schedule(simul, 0, 100 * 5);
+            timer2.schedule(simul, 0, 100 * 13);
         }
     }
     //-----------------------------
@@ -634,11 +639,11 @@ public class NavigationTMapActivity extends AppCompatActivity implements TMapGps
             if (res_angle < 0) {
                 tMapCircle.setAreaColor(Color.RED);
                 // toS += String.valueOf( iAngle );
-                toS += "도 우회전 입니다";
+                toS += "도 우회전";
                 //img_direction.setImageResource(R.drawable.direction_13);
             } else {
                 tMapCircle.setAreaColor(Color.BLUE);
-                toS += "도 좌회전 입니다";
+                toS += "도 좌회전";
                 //img_direction.setImageResource(R.drawable.direction_12);
             }
             if(bTTS_Speech==true) ttsObj.speak(toS, TextToSpeech.QUEUE_ADD, null, utteranceId);
